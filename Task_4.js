@@ -8,13 +8,13 @@ async function concurrentRequests() {
   try {
     // API URL to use to get the data
     const apiUrl1 = 'https://jsonplaceholder.typicode.com/posts/1';
-    const apiUrl2 = 'https://jsonplaceholder.typicode.com/posts/';
+    const apiUrl2 = 'https://jsonplaceholder.typicode.com/posts/2';
 
     // Creating promises for both API requests using axios
     const request1 = axios.get(apiUrl1).then((response) => response.data);
     const request2 = axios.get(apiUrl2).then((response) => response.data);
 
-    // Promise.all used to wait for both promises to resolve before resolving the results
+    // Promise.all used to wait for both promises to resolve before resolving
     const [result1, result2] = await Promise.all([request1, request2]);
 
     // Combining the results to release at once when the process is complete

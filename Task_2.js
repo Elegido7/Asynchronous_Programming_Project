@@ -1,12 +1,12 @@
 //Awaiting a Call: Create an async function awaitCall that simulates fetching data from an API.
 //Use await to wait for the API response and then log the data.
 
-// Function that returns a promise resolved after 3 seconds
+// Function that returns a promise resolved after 4 seconds
 function fetchApi() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve('The day of great liberation is Here!');
-    }, 3000);
+    }, 4000);
   });
 }
 

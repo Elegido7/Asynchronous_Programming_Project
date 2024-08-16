@@ -1,4 +1,4 @@
-Instructions
+The three (4) tasks undertaken include;
 
 Task 01:
 
@@ -7,12 +7,6 @@ Iterating with Async/Await: Write an async function iterateWithAsyncAwait that t
 Task 02:
 
 Awaiting a Call: Create an async function awaitCall that simulates fetching data from an API. Use await to wait for the API response and then log the data.
-
-Task 03:
-
-Handling Errors with Async/Await: Modify the awaitCall function to handle errors gracefully. If the API call fails, catch the error and log a user-friendly error message.
-
-Chaining Async/Await: Write a function chainedAsyncFunctions that calls three separate async functions sequentially. Each function should log a message after a delay of 1 second. Chain these functions using await.
 
 Task 04:
 
